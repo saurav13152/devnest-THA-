@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(247, 207, 192);
+}
+
+/* Top Styled Box */
+.topBox {
+  display: flex;
+  justify-content: center;
+}
+
+.topBrownBox {
+  background-color: rgb(95, 1, 1);
+  width: 320px;
+  height: 12px;
+  border-radius: 5px;
+}
+
+/* Status of Seats */
+.status {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.showSeats {
+  margin: 30px 20px;
+  text-align: center;
+}
+
+/* Styling all boxes */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.allBoxes {
+  padding: 10px;
+  border: 1px solid brown;
+  height: 60vh;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: rgb(252, 101, 41);
+}
+
+.seat {
+  background-color: rgb(141, 46, 8);
+  margin: 3px;
+}
+
+.seat:hover {
+  background-color: rgb(175, 77, 38);
+  cursor: pointer;
+}
+
+.boxClicked {
+  background-color: rgb(88, 29, 6);
+}
