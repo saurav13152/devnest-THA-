@@ -1,4 +1,4 @@
-const Info = (props) => {
+const info = (props) => {
   return (
     <>
       <div className="content">
